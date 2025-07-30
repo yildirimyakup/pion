@@ -6,12 +6,15 @@ import Contact from "../sections/Contact";
 
 import Team from "../sections/Team";
 import Testimonials from "../sections/Testimonials";
+import Podyum from "../sections/Podyum";
 
 const Home = () => {
     return (
         <>
+
             <Hero />
             <Services />
+            <Podyum />
             <About />
             <Team />
             <Testimonials />

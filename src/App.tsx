@@ -11,11 +11,11 @@ import "swiper/css/pagination";
 function App() {
     return (
         <div className="app">
-            <Navbar />
+
 
             <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/login" element={<Login />} />
+                <Route path="/" element={<><Navbar /><Home /></>} />
+                <Route path="/login" element={<><Navbar /><Login /></>} />
 
                 {/* Protected Route ile Admin */}
                 <Route

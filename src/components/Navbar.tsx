@@ -33,6 +33,7 @@ const Navbar = () => {
                 {/* Menü Butonları */}
                 <Button color="inherit" href="#hero">Anasayfa</Button>
                 <Button color="inherit" href="#hizmetler">Hizmetlerimiz</Button>
+                <Button color="inherit" href="#urun">Ürünler</Button>
                 <Button color="inherit" href="#hakkimizda">Hakkımızda</Button>
                 <Button color="inherit" href="#ekip">Ekibimiz</Button>
                 <Button color="inherit" href="#yorum">Yorumlar</Button>

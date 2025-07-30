@@ -23,7 +23,7 @@ const PodyumSection = () => {
 
     return (
         <Box
-            id="podyum"
+            id="urun"
             sx={{
                 py: 10,
                 textAlign: "center",

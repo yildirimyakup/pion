@@ -76,10 +76,9 @@ const TradeDialog = ({ open, onClose }: Props) => {
             setResultColor("#1976d2");
             setSnackbar({ open: true, message: "Takas sonucu: Ödeme gerekiyor", severity: "info" });
         } else if (fark < 0) {
-            const alinacak = Math.abs(fark) - tradeFee;
-            setResult(`Mağaza size ${alinacak}₺ ödeyecek.`);
+            setResult(`Üzerine ${tradeFee}₺ ödemeniz gerekiyor.`);
             setResultColor("#ef6c00");
-            setSnackbar({ open: true, message: "Takas sonucu: Mağaza ödeme yapacak", severity: "success" });
+            setSnackbar({ open: true, message: "Takas sonucu: Ödeme gerekiyor", severity: "info" });
         } else {
             setResult(`Sadece ${tradeFee}₺ takas ücreti ödenir.`);
             setResultColor("#2e7d32");
